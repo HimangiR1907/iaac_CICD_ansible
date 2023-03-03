@@ -1,5 +1,5 @@
 version: 2.1
-# Use a package of configuration called an orb.
+# Use a package of configuration called an orb hhf.
 orbs:
   # Choose either one of the orbs below
   # welcome: circleci/welcome-orb@0.4.1
