@@ -2,10 +2,9 @@ version: 2.1
 # Use a package of configuration called an orb.
 orbs:
   # Choose either one of the orbs below
-  # Declare a dependency on the welcome-orb
   # welcome: circleci/welcome-orb@0.4.1
-  aws-cli: circleci/aws-cli@2.0.3
-# Orchestrate or schedule a set of jobs
+  # aws-cli: circleci/aws-cli@2.0.3
+# Define the jobs we want to run for this project
 jobs:
   create_infrastructure: 
       docker:
@@ -17,7 +16,7 @@ jobs:
             command: |
               aws cloudformation deploy \
                 --template-file template.yml \
-                --stack-name myStack-${CIRCLE_WORKFLOW_ID:0:5} \
+                --stack-name HimangiStack \
                 --region us-east-1
                 
   workflows:
