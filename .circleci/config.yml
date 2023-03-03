@@ -32,5 +32,6 @@ jobs:
               --region us-east-1
   workflows:
   my_workflow:
-      jobs:
-        - create_infrastructure   
+    jobs:
+      
+      - create_infrastructure
