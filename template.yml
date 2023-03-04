@@ -7,7 +7,7 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: Ansible_EC21.pem
+      KeyName: Ansible_EC21
       ImageId: 'ami-0557a15b87f6559cf' # you may need to find out what instance types are available in your region - use https://cloud-images.ubuntu.com/locator/ec2/
       InstanceType: t2.micro
   InstanceSecurityGroup:
