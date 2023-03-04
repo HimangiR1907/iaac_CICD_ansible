@@ -16,7 +16,7 @@ jobs:
           command: |
               aws cloudformation deploy \
                 --template-file template.yml \
-                --stack-name HimangiStack \
+                --stack-name HimangiStack2 \
                 --region us-east-1
                 
 workflows:
