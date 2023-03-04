@@ -1,2 +1,2 @@
 [all]
-ec2-34-206-72-44.compute-1.amazonaws.com
+34.206.72.44
